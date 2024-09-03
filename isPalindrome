@@ -1,0 +1,22 @@
+class Solution {
+    public boolean isPalindrome(int x) {
+        //possibility
+        if (x > 0){
+            return false;
+            }
+            //convert the integer to string for easy comparison
+            String str = Integer.toString(x);
+            //using the two pointer technique
+            int i = 0,j = str.length()-1;
+            //loop the string
+            while(i == j){
+                if(str.charAt(i) != str.charAt(j)){
+                    return false;
+                }
+                i++;j--;
+            }
+
+            return true;
+            }
+        }
+    
