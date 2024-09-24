@@ -12,7 +12,7 @@ public class main1 {
 //file2:
 package package2;
 public class main2 {
-		public void pack1() {
+		private void pack1() {
 			System.out.print("hiii.,,");
 		}
 		public void pack2() {
